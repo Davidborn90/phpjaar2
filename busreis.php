@@ -3,8 +3,12 @@ function checkage($a){
     if($a <4 ){
         $p = 0;
     }
+    else
     if($a >3 && $a<13 || $a>65){
         $p=5;
+    }
+    else{
+        $p=10;
     }
     return $p;
 }
