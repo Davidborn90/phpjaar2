@@ -5,10 +5,11 @@
  * Date: 1-11-2016
  * Time: 10:47
  */
-if ($_GET["user"]){
-    echo"welkom gebruiker";
+if (isset($_GET['username'.'password'])){
+    if ($_GET["user"]){
+        echo"welkom gebruiker";
+    }
 }
-
-if($_GET["admin"]){
-    echo"welkom admin";
+else{
+    echo"<p style='color:red; font-family: Calibri;'>U moet eerst inloggen om deze pagina te zien</p>";
 }

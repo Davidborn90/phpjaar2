@@ -14,9 +14,9 @@ function doordrie($i){
     $y=$i%3;
     if ($i > 0) {
         if ($y == 0) {
-            echo "ja " . $i . " is deelbaar door 3.";
+            echo "<br>ja " . $i . " is deelbaar door 3.";
         } else {
-            echo "nee " . $i . " is niet deelbaar door 3.";
+            echo "<br>nee " . $i . " is niet deelbaar door 3.";
         }
     }
     else
