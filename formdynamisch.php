@@ -4,7 +4,8 @@
     <input type="text" name="email" placeholder="Email"><br>
     <input type="number" name="telefoon" placeholder="Telefoon"><br>
     <input type="password" name="ww" placeholder="Wachtwoord"><br>
-    <input type="submit" name="subm"><br>
+    <input type="submit" name="subm"><br><br>
+    <p></p>
 
     <?php
     if ($_GET['error']) {

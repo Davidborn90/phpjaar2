@@ -3,9 +3,9 @@ $username = $_POST['naam'];
 $password = $_POST['ww'];
 $submit = $_POST['subm'];
 $user["user1"] = "password1";
-$user["didado"]= "wwgvd";
-$user["admin"] = "admin";
-$user["dick"] = "admin123";
+$user["didado"]= "ww123ww";
+$user["admin"] = "administrator96";
+$user["david"] = "admin123";
 
 
 
